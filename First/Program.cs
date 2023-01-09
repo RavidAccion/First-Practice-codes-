@@ -161,9 +161,16 @@ using System.Text;
     static void Main(string[] args)
     {
         firstclass items = new firstclass();
+        secondclass items1 = new firstclass();
+        third items2 = new secondclass();
 
         items.One();
         items.Two(3, 27);
+        items.Two(3, 27,32);
+        items.meththree();
+        items1.One();
+        items2.hide1();
+        items2.hide2(); 
             }
 
 }
